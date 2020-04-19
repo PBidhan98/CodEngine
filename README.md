@@ -24,7 +24,7 @@ This project is an oline judge that uses Codechef API and created for making an 
 
 <br/>
 
-# Select a contest and go to the contest page where problems are listed
+# Select a contest and go to the contest page where problems are listed, which can be selected
 
 <br/>
 
@@ -32,7 +32,7 @@ This project is an oline judge that uses Codechef API and created for making an 
 
 <br/>
 
-# Select a problem statement
+# Problem statement
 
 <br/>
 
