@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+.contestbackground{
+  width:100%;
+  font-family: Arial;
+}
+
+.contestnav{
+  padding: 1% 0px 0.1% 3%;
+  width: 100%;
+  background-color:black;
+}
+
+.contestlogo{
+  
+    width:15%;
+    height:15%;
+  
+}
+
+/* .contestnav ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.contestnav ul li{
+  list-style-type: none;
+}
+
+.contestnav ul li a{
+  text-decoration: none;
+  color:white;
+  padding: 2vw;
+  font-family: monospace;
+}
+
+.contestnav ul li a:hover{
+  background-color: #C6E9FF;
+} */
+
+/* Header/Blog Title */
+.header {
+  border-radius: 25px;
+  padding: 30px;
+  text-align: center;
+  background: white;
+  margin-right: 30px;
+}
+
+.header h1 {
+  font-size: 50px;
+  margin-right: 30px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  padding-left: 0px 2% 0px 2%;
+  margin-top: 20px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+
+
+/* Right column */
+
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.contesthead{
+  background-color: rgb(135, 200, 243);
+  border-radius: 20px;;
+  padding: 4%;
+  width: 55%;
+  margin: 3% 2% 0px 5%;
+}
+
+.timecontest{
+  padding: 2%;
+  width: 27%;
+  margin: 3% 2% 0px 5%;
+  border: 1px solid rgb(197, 196, 196);
+}
+
+.leftcolumn {   
+  width: 56%;
+  margin: 4% 0px 3% 5%;
+  padding: 1%;
+  background-color: white;
+}
+
+.contestimage{
+  height: 70%;
+  width: 104%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.8);
+}
+
+.problemtable{
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+
+.problemtable td{
+  text-align: center;
+  padding: 8px;
+}
+
+.problemtable th{
+  background-color: #57b9bd;
+  text-align: center;
+  padding: 8px;
+}
+
+.timer{
+  margin: 5% 0px 1% 15%;
+}
+
+ul.timer li{
+  margin:3%;
+  color:black;
+  font-size:12px;
+  text-align:centre;
+  display:inline;
+  list-style-type: none;
+}
+
+.timer li span{
+  padding: 2% 2.5%;
+  width:32px;
+  color:black;
+  font-size:16px;
+  background: #fad75a;
+  border-radius: 2px;
+  text-align: center;
+}
+#clock-hrs-days{
+  margin:0px 0px 0px 18%;
+}
+#clock-hrs-left{
+  margin:0px 0px 0px 4%;
+}
+
+#clock-min-left{
+  margin:0px 0px 0px 8%;
+}
+
+#clock-sec-left{
+  margin:0px 0px 0px 7%;
+}
+
+#hrs-left{
+  margin:0px 0px 0px 35%;
+}
+
+#min-left{
+  margin:0px 0px 0px 7%;
+}
+
+#sec-left{
+  margin:0px 0px 0px 7%;
+}
+
+ul.timerhead li{
+  font-size:13px;
+  display:inline;
+  list-style-type: none;
+}
+
+.rightcolumn {
+  float: right;
+  width: 27%;
+  background-color: white;
+  margin: 50px 0px 50px 100px;
+}
+
+.ranklist{
+  margin-bottom: 0px;
+  color:black;
+  text-align: center;
+  font-weight: 400;
+  padding: 3%;
+  margin-top: 2%;
+  background-color: white;
+  border: 1px solid rgb(197, 196, 196);
+}
+
+.rank{
+  height:500px;
+  width:100%;
+  font-family:sans-serif;
+  margin-bottom: 10%;
+  overflow-y:auto;
+  overflow-x:auto;
+  border: 1px solid rgb(197, 196, 196);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.foot{
+  margin-top: 100px;
+  background-color:rgb(78, 70, 70);
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+  padding: 1% 50% 1% 45%;
+}
