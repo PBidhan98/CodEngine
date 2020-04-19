@@ -1,48 +1,48 @@
 This project is an oline judge that uses Codechef API and created for making an interative and simple UI.
+<br/>
+# Front Page of Website
 
->> Front Page of Website
-
-<br/><br/>
+<br/>
 
 ![](public/CodEngine_front_view.png)
 
-<br/><br/>
+<br/>
 
->> Authentication using Codechef API
+# Authentication using Codechef API
 
-<br/><br/>
+<br/>
 
 ![](public/Auth_Page.png)
 
-<br/><br/>
+<br/>
 
->> Search the Contest 
+# Search the Contest 
 
-<br/><br/>
+<br/>
 
 ![](public/Search_page.png)
 
-<br/><br/>
+<br/>
 
->> Select a contest and got to the contest page where problems are listed
+# Select a contest and got to the contest page where problems are listed
 
-<br/><br/>
+<br/>
 
 ![](public/Contest_page.png)
 
-<br/><br/>
+<br/>
 
->> Select a problem statement
+# Select a problem statement
 
-<br/><br/>
+<br/>
 
 ![](public/Problem_page.png)
 
-<br/><br/>
+<br/>
 
->> IDE for writing the source code and checking it's execution and output by pressing RUN and SUBMIT button respectively.
+# IDE for writing the source code and checking it's execution and output by pressing RUN and SUBMIT button respectively.
 
-<br/><br/>
+<br/>
 
 ![](public/text_editor.png)
 
