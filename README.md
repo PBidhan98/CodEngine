@@ -1,4 +1,4 @@
-This project is an oline judge that uses Codechef API and created for making an interative and simple UI.
+# This project is an oline judge that uses Codechef API and created for making an interative and simple UI.
 <br/>
 # Front Page of Website
 
@@ -24,7 +24,7 @@ This project is an oline judge that uses Codechef API and created for making an 
 
 <br/>
 
-# Select a contest and got to the contest page where problems are listed
+# Select a contest and go to the contest page where problems are listed
 
 <br/>
 
