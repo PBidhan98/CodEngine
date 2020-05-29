@@ -1,4 +1,4 @@
-This project is an oline judge that uses Codechef API and created for making an interative and simple UI.
+This project is an online judge that uses Codechef API and created for making an interative and simple UI.
 <br/>
 # Front Page of Website
 
